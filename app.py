@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score
 # --- Step 1: Load the Dataset ---
 @st.cache_data
 def load_data():
-    df = pd.read_csv("dataset_traffic_accident_prediction1.csv")  # << your dataset file here
+    df = pd.read_csv("accidents.csv")  # << your dataset file here
     return df
 
 st.title("🚗 Accident Prediction App (Auto Data Import)")
